@@ -1,30 +1,10 @@
+![alt text](https://www.google.com/search?q=r+studio&tbm=isch&chips=q:r+studio,g_1:icon:z2vprxGUoFc%3D&rlz=1C5CHFA_enAE923AE923&hl=en&sa=X&ved=2ahUKEwjPjKju9eTzAhUJjxoKHbIkA9gQ4lYoAXoECAEQEg&biw=1427&bih=586#imgrc=tzYL7ELRl3pocM)
 ---
 title: "R - Beginners Workshop Handout"
-subtitle: 
-- "Clinical Research Training Program"
-author: Ria Pinjani, Dr. Amar Ahmad
+subtitle: "Clinical Research Training Program"
+author: Ria Pinjani
 date: "03/02/2020"
-output:
-  pdf_document: default
-header-includes: 
-     \usepackage{titling}
-   \pretitle{\begin{center}
-    \includegraphics[width=5in,height=10in]{logo.png}\LARGE\\}
-   \posttitle{\end{center}}
 ---
-
-
-\begin{center}
-\textbf{Course Directors}:  Dr. Omar El Shahawy, Dr. Raghib Ali
-\end{center}
-
-\begin{center}
-\textbf{Program Coordinators}: Maryse Bibeau, Meghan Durr
-
-
-\end{center}
-
-
 
 ```{r, include=FALSE}
 # install.packages("knitr")
@@ -32,9 +12,6 @@ library(knitr)
 # install.packages("kableExtra")
 library(kableExtra)
 ```
-
-
-\vspace{20mm}
 
 The purpose of this handout is to give you a heads up for what you should expect in your R - Beginners Workshop. For the duration of the workshop we will be covering the following topics;
 
