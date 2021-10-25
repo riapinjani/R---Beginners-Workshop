@@ -4,11 +4,6 @@
 ## R - Beginners Workshop Handout
 
 ### Clinical Research Training Program
-
-#### Ria Pinjani
-
-03/02/2020
-
 ---
 
 The purpose of this handout is to give you a heads up for what you should expect in your R - Beginners Workshop. For the duration of the workshop we will be covering the following topics;
