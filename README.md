@@ -1,17 +1,15 @@
-![alt text](https://www.google.com/search?q=r+studio&tbm=isch&chips=q:r+studio,g_1:icon:z2vprxGUoFc%3D&rlz=1C5CHFA_enAE923AE923&hl=en&sa=X&ved=2ahUKEwjPjKju9eTzAhUJjxoKHbIkA9gQ4lYoAXoECAEQEg&biw=1427&bih=586#imgrc=tzYL7ELRl3pocM)
----
-title: "R - Beginners Workshop Handout"
-subtitle: "Clinical Research Training Program"
-author: Ria Pinjani
-date: "03/02/2020"
----
+![x](https://github.com/riapinjani/R---Beginners-Workshop/blob/master/logo.png)
 
-```{r, include=FALSE}
-# install.packages("knitr")
-library(knitr)
-# install.packages("kableExtra")
-library(kableExtra)
-```
+---
+## R - Beginners Workshop Handout
+
+### Clinical Research Training Program
+
+#### Ria Pinjani
+
+03/02/2020
+
+---
 
 The purpose of this handout is to give you a heads up for what you should expect in your R - Beginners Workshop. For the duration of the workshop we will be covering the following topics;
 
@@ -20,7 +18,6 @@ The purpose of this handout is to give you a heads up for what you should expect
 3. Importing, viewing and describing and saving datasets in R
 4. t-Test, Chi Squared test and Linear Regression in R
 5. Basic Visualization
-
 
 
 ## 1. Introducing R & RStudio
@@ -33,6 +30,7 @@ R is a programming language for statistical computing and graphics. It's open so
 
 RStudio is a integrated development environment for R. The inferface enables users to view graphs, data tables, R code and output all at the same time. In figure 1 (Page 2); see how the R Studio interface looks like. 
 
+
 ```{r, include=FALSE}
 knitr::knit_hooks$set(plot = function(x, options){
   hook_plot_tex(x, options)
@@ -44,7 +42,7 @@ knitr::include_graphics("R\ Studio\ Interface.png")
 ```
 
 
-### Installing R & Rstudio
+### Installing R & RStudio
 
 For the purposes of this workshop, R & Rstudio will already be installed on your PCs. To download it on your personal computers, You can use the links below.
 
@@ -61,6 +59,14 @@ R packages are collections of functions and data sets developed by the community
 ```{r, eval=FALSE}
 install.packages("name_of_package")
 library(name_of_package)
+```
+### Dependencies
+
+```{r, include=FALSE}
+# install.packages("knitr")
+library(knitr)
+# install.packages("kableExtra")
+library(kableExtra)
 ```
 
 You can find a list of useful R packages here; https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages
